@@ -1,0 +1,2 @@
+jsoncodable==0.1.2
+web3==5.18.0
