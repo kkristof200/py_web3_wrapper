@@ -56,10 +56,9 @@ class PancakeswapLiquidityPool(Bep20):
         return self.__token0_address
 
     def token0(self) -> Optional[Bep20]:
-        if not self.__token0_address:
-            self.__token0_address = self.token0Address()
+        token0Address = self.token0Address()
 
-        return self.__token0_address
+        return Bep20(self._web3, token0Address) if token0Address else None
 
     def token1Address(self) -> Optional[str]:
         if not self.__token1_address:
@@ -68,20 +67,25 @@ class PancakeswapLiquidityPool(Bep20):
         return self.__token1_address
 
     def token1(self) -> Optional[Bep20]:
-        if not self.__token1_address:
-            self.__token1_address = self.token1Address()
+        token1Address = self.token1Address()
 
-        return self.__token1_address
+        return Bep20(self._web3, token1Address) if token1Address else None
 
     def token0Price(self) -> Optional[float]:
         reserves = self.getReserves()
 
-        return (reserves.reserve0 / reserves.reserve1) if reserves else None
+        return reserves.token0Price(
+            token_0_decimals=self.token0().decimals(),
+            token_1_decimals=self.token1().decimals(),
+        ) if reserves else None
 
     def token1Price(self) -> Optional[float]:
         reserves = self.getReserves()
 
-        return (reserves.reserve1 / reserves.reserve0) if reserves else None
+        return reserves.token1Price(
+            token_0_decimals=self.token0().decimals(),
+            token_1_decimals=self.token1().decimals(),
+        ) if reserves else None
 
 
     # Forwarders

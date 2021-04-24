@@ -40,7 +40,7 @@ class PancakeswapWbnbBusdLiquidityPool(PancakeswapWbnbLiquidityPool):
     def busdAddress(self) -> Optional[str]:
         return super().tokenAddress()
 
-    def token(self) -> Optional[Busd]:
+    def busd(self) -> Optional[Busd]:
         return super().token()
 
     def priceBusdCumulativeLast(self) -> int:

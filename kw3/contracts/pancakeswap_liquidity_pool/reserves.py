@@ -24,4 +24,32 @@ class Reserves(JSONCodable):
         self.blockTimestampLast = blockTimestampLast
 
 
+    # --------------------------------------------------- Public properties -------------------------------------------------- #
+
+    @property
+    def token0_token1_rate(self) -> float:
+        return self.reserve0 / self.reserve1
+
+    @property
+    def token1_token0_rate(self) -> float:
+        return self.reserve1 / self.reserve0
+
+
+    # ---------------------------------------------------- Public methods ---------------------------------------------------- #
+
+    def token0Price(
+        self,
+        token_0_decimals: int,
+        token_1_decimals: int
+    ) -> float:
+        return self.token0_token1_rate * pow(10, token_1_decimals - token_0_decimals)
+
+    def token1Price(
+        self,
+        token_0_decimals: int,
+        token_1_decimals: int
+    ) -> float:
+        return self.token1_token0_rate * pow(10, token_0_decimals - token_1_decimals)
+
+
 # -------------------------------------------------------------------------------------------------------------------------------- #

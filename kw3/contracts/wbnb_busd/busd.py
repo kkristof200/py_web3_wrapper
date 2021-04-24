@@ -26,8 +26,20 @@ class Busd(Bep20):
     ):
         super().__init__(
             web3=web3,
-            address=Constants.ADDRESS_BUSD
+            address=Constants.BUSD.ADDRESS
         )
+
+
+    # ---------------------------------------------------- Public methods ---------------------------------------------------- #
+
+    def name(self) -> int:
+        return Constants.BUSD.NAME
+
+    def symbol(self) -> int:
+        return Constants.BUSD.SYMBOL
+
+    def decimals(self) -> int:
+        return Constants.BUSD.DECIMALS
 
 
 # -------------------------------------------------------------------------------------------------------------------------------- #

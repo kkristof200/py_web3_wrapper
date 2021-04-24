@@ -41,13 +41,13 @@ class Bep20(WrappedContract):
 
     # ---------------------------------------------------- Public methods ---------------------------------------------------- #
 
-    def name(self) -> int:
+    def name(self) -> str:
         if not self.__name:
             self.__name = self.functions.name().call()
 
         return self.__name
 
-    def symbol(self) -> int:
+    def symbol(self) -> str:
         if not self.__symbol:
             self.__symbol = self.functions.symbol().call()
 
@@ -70,6 +70,27 @@ class Bep20(WrappedContract):
         address: str
     ) -> int:
         return self.functions.balanceOf(address).call()
+
+
+    # Custom
+
+    def toWei(
+        self,
+        amount: int
+    ) -> float:
+        return amount * pow(10, self.decimals()) if self.decimals() > 0 else amount
+
+    def toEth(
+        self,
+        amount: int
+    ) -> float:
+        return amount / pow(10, self.decimals()) if self.decimals() > 0 else amount
+
+    def market_cap(
+        self,
+        price_per_token: int
+    ) -> int:
+        return price_per_token * self.totalSupply()
 
 
 # -------------------------------------------------------------------------------------------------------------------------------- #

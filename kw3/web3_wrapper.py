@@ -1,7 +1,8 @@
 # ------------------------------------------------------------ Imports ----------------------------------------------------------- #
 
 # System
-
+from typing import Optional
+import random
 
 # Pip
 from web3 import Web3
@@ -23,9 +24,9 @@ class Web3Wrapper(object):
 
     def __init__(
         self,
-        endpoint_uri: str = Constants.BSC_ENDPOINT_URI
+        endpoint_uri: Optional[str] = None
     ):
-        self.__web3 = Web3(Web3.HTTPProvider(endpoint_uri))
+        self.__web3 = Web3(Web3.HTTPProvider(endpoint_uri or random.choice(Constants.BSC_ENDPOINT_URIS)))
 
 
     # --------------------------------------------------- Public properties -------------------------------------------------- #
@@ -67,12 +68,18 @@ class Web3Wrapper(object):
         address: str
     ) -> PancakeswapLiquidityPool:
         return PancakeswapLiquidityPool(self.__web3, address=address)
-    
+
     def pancakeswap_wbnb_liquidity_pool(
         self,
         address: str
     ) -> PancakeswapWbnbLiquidityPool:
         return PancakeswapWbnbLiquidityPool(self.__web3, address=address)
+
+    def pancakeswap_wbnb_liquidity_pool_for_token(
+        self,
+        token_address: str
+    ) -> PancakeswapLiquidityPool:
+        return self.pancakeswap_wbnb_factory().getPair(token_address)
 
     def pancakeswap_wbnb_busd_liquidity_pool(self) -> PancakeswapWbnbBusdLiquidityPool:
         return PancakeswapWbnbBusdLiquidityPool(self.__web3)

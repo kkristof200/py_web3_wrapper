@@ -27,7 +27,7 @@ class PancakeswapWbnbFactory(PancakeswapFactory):
         self,
         address: str,
     ) -> Optional[str]:
-        return super().getPairAddress(Constants.ADDRESS_WBNB, address)
+        return super().getPairAddress(Constants.WBNB.ADDRESS, address)
 
     def getPair(
         self,

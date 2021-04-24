@@ -26,8 +26,20 @@ class Wbnb(Bep20):
     ):
         super().__init__(
             web3=web3,
-            address=Constants.ADDRESS_WBNB
+            address=Constants.WBNB.ADDRESS
         )
+
+
+    # ---------------------------------------------------- Public methods ---------------------------------------------------- #
+
+    def name(self) -> int:
+        return Constants.WBNB.NAME
+
+    def symbol(self) -> int:
+        return Constants.WBNB.SYMBOL
+
+    def decimals(self) -> int:
+        return Constants.WBNB.DECIMALS
 
 
 # -------------------------------------------------------------------------------------------------------------------------------- #
