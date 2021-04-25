@@ -10,7 +10,7 @@ else:
 
 setuptools.setup(
     name='kw3',
-    version='0.0.3',
+    version='0.0.4',
     author='Kristóf-Attila Kovács',
     description='kw3',
     long_description=long_description,
@@ -18,7 +18,6 @@ setuptools.setup(
     url='https://github.com/kkristof200/py_web3_wrapper',
     packages=setuptools.find_packages(),
     install_requires=[
-        'jsoncodable>=0.1.2',
         'web3>=5.18.0'
     ],
     classifiers=[

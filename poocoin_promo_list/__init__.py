@@ -1,2 +1,0 @@
-from .poocoin_promo_list import PoocoinPromoList
-from  .poocoin_promoted_unvetted_token import PoocoinPromotedUnvettedToken

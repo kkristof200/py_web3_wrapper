@@ -7,9 +7,6 @@ from typing import List
 from web3 import Web3
 from web3.contract import ContractFunctions, Contract as Web3Contract
 
-# Local
-from .wrapped_function import WrappedFunction
-
 # -------------------------------------------------------------------------------------------------------------------------------- #
 
 

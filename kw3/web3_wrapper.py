@@ -18,7 +18,7 @@ from .contracts import *
 
 # ------------------------------------------------------ class: Web3Wrapper ------------------------------------------------------ #
 
-class Web3Wrapper(object):
+class Web3Wrapper:
 
     # --------------------------------------------------------- Init --------------------------------------------------------- #
 
@@ -57,32 +57,8 @@ class Web3Wrapper(object):
     def wbnb(self) -> Wbnb:
         return Wbnb(self.__web3)
 
-    def pancakeswap_factory(self) -> Bep20:
-        return PancakeswapFactory(self.__web3)
-
-    def pancakeswap_wbnb_factory(self) -> PancakeswapWbnbFactory:
-        return PancakeswapWbnbFactory(self.__web3)
-
-    def pancakeswap_liquidity_pool(
-        self,
-        address: str
-    ) -> PancakeswapLiquidityPool:
-        return PancakeswapLiquidityPool(self.__web3, address=address)
-
-    def pancakeswap_wbnb_liquidity_pool(
-        self,
-        address: str
-    ) -> PancakeswapWbnbLiquidityPool:
-        return PancakeswapWbnbLiquidityPool(self.__web3, address=address)
-
-    def pancakeswap_wbnb_liquidity_pool_for_token(
-        self,
-        token_address: str
-    ) -> PancakeswapLiquidityPool:
-        return self.pancakeswap_wbnb_factory().getPair(token_address)
-
-    def pancakeswap_wbnb_busd_liquidity_pool(self) -> PancakeswapWbnbBusdLiquidityPool:
-        return PancakeswapWbnbBusdLiquidityPool(self.__web3)
+    def busd(self) -> Wbnb:
+        return Busd(self.__web3)
 
 
 # -------------------------------------------------------------------------------------------------------------------------------- #
