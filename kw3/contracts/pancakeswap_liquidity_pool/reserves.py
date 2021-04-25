@@ -42,14 +42,14 @@ class Reserves(JSONCodable):
         token_0_decimals: int,
         token_1_decimals: int
     ) -> float:
-        return self.token0_token1_rate * pow(10, token_1_decimals - token_0_decimals)
+        return self.token1_token0_rate * pow(10, token_0_decimals - token_1_decimals)
 
     def token1Price(
         self,
         token_0_decimals: int,
         token_1_decimals: int
     ) -> float:
-        return self.token1_token0_rate * pow(10, token_0_decimals - token_1_decimals)
+        return self.token0_token1_rate * pow(10, token_1_decimals - token_0_decimals)
 
 
 # -------------------------------------------------------------------------------------------------------------------------------- #

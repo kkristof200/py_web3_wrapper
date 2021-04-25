@@ -86,11 +86,23 @@ class Bep20(WrappedContract):
     ) -> float:
         return amount / pow(10, self.decimals()) if self.decimals() > 0 else amount
 
-    def market_cap(
+    def marketCap(
         self,
         price_per_token: int
     ) -> int:
         return price_per_token * self.totalSupply()
+
+    def marketCapEth(
+        self,
+        price_per_token: int
+    ) -> int:
+        return self.toEth(self.marketCap(price_per_token))
+
+    def marketCapWei(
+        self,
+        price_per_token: int
+    ) -> int:
+        return self.toWei(self.marketCap(price_per_token))
 
 
 # -------------------------------------------------------------------------------------------------------------------------------- #

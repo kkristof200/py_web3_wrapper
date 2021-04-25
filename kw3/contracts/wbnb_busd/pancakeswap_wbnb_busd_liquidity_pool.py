@@ -7,10 +7,12 @@ from typing import Optional
 from web3 import Web3
 
 # Local
-from .busd import Busd
 from .reserves_wbnb_busd import ReservesWbnbBusd
 
-from ..wbnb import PancakeswapWbnbLiquidityPool
+from ..busd import Busd
+from ..wbnb import Wbnb
+from ..pancakeswap_liquidity_pool import PancakeswapLiquidityPool
+
 from ...constants import Constants
 
 # -------------------------------------------------------------------------------------------------------------------------------- #
@@ -19,7 +21,7 @@ from ...constants import Constants
 
 # -------------------------------------------- class: PancakeswapWbnbBusdLiquidityPool ------------------------------------------- #
 
-class PancakeswapWbnbBusdLiquidityPool(PancakeswapWbnbLiquidityPool):
+class PancakeswapWbnbBusdLiquidityPool(PancakeswapLiquidityPool):
 
     # --------------------------------------------------------- Init --------------------------------------------------------- #
 
@@ -37,21 +39,48 @@ class PancakeswapWbnbBusdLiquidityPool(PancakeswapWbnbLiquidityPool):
 
     # Custom
 
+    def wbnbAddress(self) -> Optional[str]:
+        return self.token0Address()
+
     def busdAddress(self) -> Optional[str]:
-        return super().tokenAddress()
+        return self.token1Address()
+
+    def wbnb(self) -> Optional[Wbnb]:
+        return self.token0()
 
     def busd(self) -> Optional[Busd]:
-        return super().token()
-
-    def priceBusdCumulativeLast(self) -> int:
-        return self.price0CumulativeLast()
+        return self.token1()
 
     def getReserves(self) -> Optional[ReservesWbnbBusd]:
         return self._getReserves(ReservesWbnbBusd)
 
+    def priceWbnbCumulativeLast(self) -> int:
+        return self.price0CumulativeLast()
+
+    def priceBusdCumulativeLast(self) -> int:
+        return self.price1CumulativeLast()
+
+    def wbnbPrice(self) -> Optional[float]:
+        '''BUSD for 1 BNB'''
+        return self.token0Price()
+
     def busdPrice(self) -> Optional[float]:
         '''BNB for 1 BUSD'''
-        return self.tokenPrice()
+        return self.token1Price()
+
+    def toWbnb(
+        self,
+        busdAmount: int
+    ) -> Optional[float]:
+        '''BNB for "busdAmount" Busd'''
+        return self.toToken0(busdAmount)
+
+    def toBusd(
+        self,
+        wbnbAmount: int
+    ) -> Optional[float]:
+        '''Busd for "wbnbAmount" BNB'''
+        return self.toToken1(wbnbAmount)
 
 
 # -------------------------------------------------------------------------------------------------------------------------------- #

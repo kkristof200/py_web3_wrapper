@@ -1,7 +1,7 @@
 # ------------------------------------------------------------ Imports ----------------------------------------------------------- #
 
 # Local
-from ..wbnb import ReservesWbnb
+from ..pancakeswap_liquidity_pool import Reserves
 from ...constants import Constants
 
 # -------------------------------------------------------------------------------------------------------------------------------- #
@@ -10,32 +10,36 @@ from ...constants import Constants
 
 # ---------------------------------------------------- class: ReservesWbnbBusd --------------------------------------------------- #
 
-class ReservesWbnbBusd(ReservesWbnb):
+class ReservesWbnbBusd(Reserves):
 
     # --------------------------------------------------- Public properties -------------------------------------------------- #
 
     @property
-    def reservesBusd(self) -> int:
-        return self.reserveToken
+    def reserveWbnb(self) -> int:
+        return self.reserve0
 
     @property
-    def busd_wbnb_rate(self) -> float:
-        return self.token_wbnb_rate
+    def reserveBusd(self) -> int:
+        return self.reserve1
 
     @property
     def wbnb_busd_rate(self) -> float:
-        return self.wbnb_token_rate
+        return self.token0_token1_rate
+
+    @property
+    def busd_wbnb_rate(self) -> float:
+        return self.token1_token0_rate
 
 
     # ---------------------------------------------------- Public methods ---------------------------------------------------- #
 
-    def busdPrice(self) -> float:
-        '''BNB for 1 BUSD'''
-        return self.token0Price(Constants.BUSD.DECIMALS, Constants.WBNB.DECIMALS)
-
     def wbnbPrice(self) -> float:
         '''BUSD for 1 BNB'''
-        return self.token1Price(Constants.BUSD.DECIMALS, Constants.WBNB.DECIMALS)
+        return self.token0Price(Constants.WBNB.DECIMALS, Constants.BUSD.DECIMALS)
+
+    def busdPrice(self) -> float:
+        '''BNB for 1 Busd'''
+        return self.token1Price(Constants.WBNB.DECIMALS, Constants.BUSD.DECIMALS)
 
 
 # -------------------------------------------------------------------------------------------------------------------------------- #

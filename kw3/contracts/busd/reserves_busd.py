@@ -9,9 +9,9 @@ from ...constants import Constants
 
 
 
-# ------------------------------------------------------ class: ReservesWbnb ----------------------------------------------------- #
+# ------------------------------------------------------ class: ReservesBusd ----------------------------------------------------- #
 
-class ReservesWbnb(Reserves):
+class ReservesBusd(Reserves):
 
     # --------------------------------------------------------- Init --------------------------------------------------------- #
 
@@ -20,7 +20,7 @@ class ReservesWbnb(Reserves):
         reserve0: int,
         reserve1: int,
         blockTimestampLast: int,
-        is_base_wbnb: bool
+        is_base_busd: bool
     ):
         super().__init__(
             reserve0=reserve0,
@@ -28,26 +28,26 @@ class ReservesWbnb(Reserves):
             blockTimestampLast=blockTimestampLast
         )
 
-        self.__is_base_wbnb = is_base_wbnb
+        self.__is_base_busd = is_base_busd
 
 
     # --------------------------------------------------- Public properties -------------------------------------------------- #
 
     @property
     def reserveToken(self) -> int:
-        return self.reserve1 if self.__is_base_wbnb else self.reserve0
+        return self.reserve1 if self.__is_base_busd else self.reserve0
 
     @property
-    def reserveWbnb(self) -> int:
-        return self.reserve0 if self.__is_base_wbnb else self.reserve1
+    def reserveBusd(self) -> int:
+        return self.reserve0 if self.__is_base_busd else self.reserve1
 
     @property
-    def token_wbnb_rate(self) -> float:
-        return self.token1_token0_rate if self.__is_base_wbnb else self.token0_token1_rate
+    def token_busd_rate(self) -> float:
+        return self.token1_token0_rate if self.__is_base_busd else self.token0_token1_rate
 
     @property
-    def wbnb_token_rate(self) -> float:
-        return self.token0_token1_rate if self.__is_base_wbnb else self.token1_token0_rate
+    def busd_token_rate(self) -> float:
+        return self.token0_token1_rate if self.__is_base_busd else self.token1_token0_rate
 
 
     # ---------------------------------------------------- Public methods ---------------------------------------------------- #
@@ -57,21 +57,21 @@ class ReservesWbnb(Reserves):
         token_decimals: int
     ) -> float:
         '''BNB for 1 Token'''
-        token_0_decimals, token_1_decimals = (Constants.WBNB.DECIMALS, token_decimals) if self.__is_base_wbnb else (token_decimals, Constants.WBNB.DECIMALS)
+        token_0_decimals, token_1_decimals = (Constants.BUSD.DECIMALS, token_decimals) if self.__is_base_busd else (token_decimals, Constants.BUSD.DECIMALS)
 
-        return (self.token1Price if self.__is_base_wbnb else self.token0Price)(
+        return (self.token1Price if self.__is_base_busd else self.token0Price)(
             token_0_decimals=token_0_decimals,
             token_1_decimals=token_1_decimals
         )
 
-    def wbnbPrice(
+    def busdPrice(
         self,
         token_decimals: int
     ) -> float:
         '''Token for 1 BNB'''
-        token_0_decimals, token_1_decimals = (token_decimals, Constants.WBNB.DECIMALS) if self.__is_base_wbnb else (Constants.WBNB.DECIMALS, token_decimals)
+        token_0_decimals, token_1_decimals = (token_decimals, Constants.BUSD.DECIMALS) if self.__is_base_busd else (Constants.BUSD.DECIMALS, token_decimals)
 
-        return (self.token0Price if self.__is_base_wbnb else self.token1Price)(
+        return (self.token0Price if self.__is_base_busd else self.token1Price)(
             token_0_decimals=token_0_decimals,
             token_1_decimals=token_1_decimals
         )
