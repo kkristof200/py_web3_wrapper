@@ -31,4 +31,4 @@ pip3 install kw3
 
 ## Dependencies
 
-[web3](https://pypi.org/project/web3)
+[eth-account](https://pypi.org/project/eth-account), [noraise](https://pypi.org/project/noraise), [web3](https://pypi.org/project/web3), [web3-erc20-predefined](https://pypi.org/project/web3-erc20-predefined)
