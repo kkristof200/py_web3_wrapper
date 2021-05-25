@@ -31,6 +31,9 @@ class KWeb3(Web3):
         super().__init__(Web3.HTTPProvider(endpoint_uri))
         self.account = self.account_from_key(account_private_key) if account_private_key else None
 
+        if self.account:
+            self.eth.default_account = self.account.address
+
         if use_poa_middleware:
             self.middleware_onion.inject(geth_poa_middleware, layer=0)
 
