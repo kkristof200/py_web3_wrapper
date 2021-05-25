@@ -72,9 +72,14 @@ class KWeb3(Web3):
 
     def erc20(
         self,
-        address: str
+        address: str,
+        account: Optional[LocalAccount] = None
     ) -> ERC20:
-        return ERC20(self.eth, address)
+        return ERC20(
+            eth=self.eth,
+            address=address,
+            account=account or self.account
+        )
 
 
     # Predefined - BSC
@@ -84,7 +89,7 @@ class KWeb3(Web3):
         account: Optional[LocalAccount] = None
     ) -> Wbnb:
         return Wbnb(
-            self.eth,
+            eth=self.eth,
             account=account or self.account
         )
 
@@ -93,7 +98,7 @@ class KWeb3(Web3):
         account: Optional[LocalAccount] = None
     ) -> Busd:
         return Busd(
-            self.eth,
+            eth=self.eth,
             account=account or self.account
         )
 
@@ -104,7 +109,7 @@ class KWeb3(Web3):
         account: Optional[LocalAccount] = None
     ) -> TestWbnb:
         return TestWbnb(
-            self.eth,
+            eth=self.eth,
             account=account or self.account
         )
 
@@ -115,7 +120,7 @@ class KWeb3(Web3):
         account: Optional[LocalAccount] = None
     ) -> Dai:
         return Dai(
-            self.eth,
+            eth=self.eth,
             account=account or self.account
         )
 
@@ -124,7 +129,7 @@ class KWeb3(Web3):
         account: Optional[LocalAccount] = None
     ) -> USDC:
         return USDC(
-            self.eth,
+            eth=self.eth,
             account=account or self.account
         )
 
@@ -133,7 +138,7 @@ class KWeb3(Web3):
         account: Optional[LocalAccount] = None
     ) -> USDT:
         return USDT(
-            self.eth,
+            eth=self.eth,
             account=account or self.account
         )
 
@@ -142,7 +147,7 @@ class KWeb3(Web3):
         account: Optional[LocalAccount] = None
     ) -> Weth:
         return Weth(
-            self.eth,
+            eth=self.eth,
             account=account or self.account
         )
 

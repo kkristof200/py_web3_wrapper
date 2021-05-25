@@ -1,34 +1,16990 @@
-# kw3
+~~~~python
+from web3._utils.abi import abi_to_signature
 
-![PyPI - package version](https://img.shields.io/pypi/v/kw3?logo=pypi&style=flat-square)
-![PyPI - license](https://img.shields.io/pypi/l/kw3?label=package%20license&style=flat-square)
-![PyPI - python version](https://img.shields.io/pypi/pyversions/kw3?logo=pypi&style=flat-square)
-![PyPI - downloads](https://img.shields.io/pypi/dm/kw3?logo=pypi&style=flat-square)
+from kw3 import KWeb3
 
-![GitHub - last commit](https://img.shields.io/github/last-commit/kkristof200/py_web3_wrapper?style=flat-square)
-![GitHub - commit activity](https://img.shields.io/github/commit-activity/m/kkristof200/py_web3_wrapper?style=flat-square)
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
 
-![GitHub - code size in bytes](https://img.shields.io/github/languages/code-size/kkristof200/py_web3_wrapper?style=flat-square)
-![GitHub - repo size](https://img.shields.io/github/repo-size/kkristof200/py_web3_wrapper?style=flat-square)
-![GitHub - lines of code](https://img.shields.io/tokei/lines/github/kkristof200/py_web3_wrapper?style=flat-square)
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
 
-![GitHub - license](https://img.shields.io/github/license/kkristof200/py_web3_wrapper?label=repo%20license&style=flat-square)
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~#~~~~python
+from web3._utils.abi import abi_to_signature
 
-## Description
+from kw3 import KWeb3
 
-kw3
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
 
-## Install
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
 
-~~~~bash
-pip install kw3
-# or
-pip3 install kw3
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~ ~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~k~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~w~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~3~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
 ~~~~
+~~~~python
+from web3._utils.abi import abi_to_signature
 
-## Usage
+from kw3 import KWeb3
 
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
 
-## Dependencies
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
 
-[eth-account](https://pypi.org/project/eth-account), [noraise](https://pypi.org/project/noraise), [web3](https://pypi.org/project/web3), [web3-erc20-predefined](https://pypi.org/project/web3-erc20-predefined)
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~
+~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~!~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~[~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~P~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~y~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~P~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~I~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~ ~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~-~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~ ~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~p~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~a~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~c~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~k~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~a~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~g~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~e~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~ ~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~v~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~e~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~r~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~s~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~i~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~o~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~n~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~]~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~(~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~h~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~t~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~t~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~p~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~s~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~:~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~/~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~/~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~i~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~m~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~g~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~.~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~s~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~h~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~i~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~e~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~l~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~d~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~s~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~.~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~i~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~o~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~/~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~p~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~y~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~p~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~i~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~/~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~v~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~/~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~k~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~w~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~3~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~?~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~l~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~o~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~g~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~o~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~=~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~p~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~y~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~p~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~i~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~&~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~s~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~t~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~y~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~l~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~e~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~=~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~f~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~l~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~a~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~t~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~-~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~s~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~q~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~u~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~a~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~r~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~e~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~)~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~
+~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~!~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~[~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~P~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~y~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~P~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~I~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~ ~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~-~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~ ~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~l~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~i~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~c~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~e~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~n~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~s~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~e~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~]~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~(~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~h~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~t~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~t~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~p~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~s~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~:~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~/~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~/~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~i~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~m~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~g~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~.~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~s~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~h~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~i~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~e~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~l~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~d~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~s~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~.~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~i~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~o~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~/~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~p~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~y~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~p~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~i~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~/~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~l~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~/~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~k~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~w~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~3~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~?~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~l~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~a~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~b~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~e~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~l~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~=~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~p~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~a~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~c~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~k~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~a~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~g~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~e~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~%~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~2~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~0~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~l~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~i~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~c~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~e~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~n~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~s~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~e~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~&~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~s~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~t~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~y~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~l~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~e~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~=~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~f~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~l~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~a~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~t~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~-~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~s~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~q~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~u~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~a~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~r~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~e~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~)~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~
+~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~!~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~[~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~P~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~y~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~P~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~I~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~ ~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~-~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~ ~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~p~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~y~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~t~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~h~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~o~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~n~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~ ~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~v~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~e~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~r~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~s~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~i~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~o~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~n~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~]~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~(~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~h~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~t~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~t~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~p~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~s~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~:~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~/~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~/~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~i~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~m~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~g~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~.~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~s~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~h~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~i~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~e~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~l~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~d~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~s~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~.~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~i~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~o~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~/~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~p~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~y~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~p~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~i~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~/~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~p~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~y~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~v~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~e~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~r~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~s~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~i~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~o~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~n~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~s~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~/~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~k~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~w~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~3~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~?~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~l~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~o~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~g~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~o~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~=~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~p~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~y~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~p~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~i~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~&~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~s~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~t~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~y~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~l~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~e~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~=~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~f~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~l~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~a~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~t~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~-~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~s~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~q~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~u~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~a~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~r~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~e~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~)~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~
+~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~!~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~[~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~P~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~y~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~P~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~I~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~ ~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~-~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~ ~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~d~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~o~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~w~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~n~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~l~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~o~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~a~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~d~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~s~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~]~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~(~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~h~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~t~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~t~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~p~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~s~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~:~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~/~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~/~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~i~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~m~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~g~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~.~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~s~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~h~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~i~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~e~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~l~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~d~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~s~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~.~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~i~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~o~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~/~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~p~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~y~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~p~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~i~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~/~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~d~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~m~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~/~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~k~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~w~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~3~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~?~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~l~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~o~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~g~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~o~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~=~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~p~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~y~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~p~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~i~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~&~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~s~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~t~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~y~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~l~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~e~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~=~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~f~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~l~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~a~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~t~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~-~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~s~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~q~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~u~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~a~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~r~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~e~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~)~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~
+~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~
+~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~!~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~[~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~G~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~i~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~t~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~H~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~u~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~b~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~ ~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~-~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~ ~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~l~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~a~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~s~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~t~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~ ~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~c~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~o~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~m~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~m~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~i~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~t~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~]~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~(~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~h~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~t~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~t~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~p~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~s~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~:~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~/~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~/~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~i~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~m~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~g~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~.~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~s~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~h~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~i~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~e~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~l~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~d~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~s~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~.~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~i~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~o~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~/~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~g~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~i~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~t~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~h~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~u~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~b~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~/~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~l~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~a~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~s~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~t~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~-~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~c~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~o~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~m~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~m~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~i~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~t~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~/~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~k~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~k~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~r~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~i~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~s~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~t~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~o~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~f~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~2~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~0~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~0~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~/~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~p~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~y~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~_~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~w~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~e~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~b~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~3~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~_~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~w~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~r~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~a~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~p~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~p~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~e~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~r~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~?~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~s~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~t~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~y~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~l~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~e~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~=~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~f~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~l~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~a~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~t~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~-~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~s~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~q~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~u~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~a~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~r~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~e~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~)~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~
+~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~!~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~[~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~G~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~i~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~t~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~H~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~u~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~b~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~ ~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~-~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~ ~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~c~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~o~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~m~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~m~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~i~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~t~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~ ~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~a~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~c~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~t~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~i~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~v~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~i~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~t~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~y~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~]~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~(~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~h~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~t~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~t~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~p~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~s~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~:~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~/~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~/~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~i~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~m~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~g~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~.~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~s~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~h~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~i~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~e~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~l~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~d~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~s~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~.~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~i~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~o~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~/~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~g~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~i~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~t~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~h~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~u~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~b~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~/~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~c~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~o~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~m~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~m~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~i~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~t~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~-~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~a~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~c~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~t~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~i~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~v~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~i~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~t~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~y~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~/~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~m~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~/~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~k~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~k~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~r~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~i~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~s~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~t~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~o~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~f~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~2~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~0~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~0~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~/~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~p~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~y~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~_~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~w~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~e~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~b~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~3~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~_~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~w~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~r~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~a~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~p~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~p~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~e~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~r~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~?~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~s~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~t~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~y~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~l~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~e~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~=~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~f~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~l~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~a~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~t~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~-~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~s~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~q~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~u~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~a~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~r~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~e~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~)~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~
+~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~
+~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~!~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~[~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~G~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~i~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~t~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~H~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~u~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~b~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~ ~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~-~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~ ~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~c~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~o~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~d~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~e~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~ ~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~s~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~i~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~z~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~e~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~ ~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~i~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~n~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~ ~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~b~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~y~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~t~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~e~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~s~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~]~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~(~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~h~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~t~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~t~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~p~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~s~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~:~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~/~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~/~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~i~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~m~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~g~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~.~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~s~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~h~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~i~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~e~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~l~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~d~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~s~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~.~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~i~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~o~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~/~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~g~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~i~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~t~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~h~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~u~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~b~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~/~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~l~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~a~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~n~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~g~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~u~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~a~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~g~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~e~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~s~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~/~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~c~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~o~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~d~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~e~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~-~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~s~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~i~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~z~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~e~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~/~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~k~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~k~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~r~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~i~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~s~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~t~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~o~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~f~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~2~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~0~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~0~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~/~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~p~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~y~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~_~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~w~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~e~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~b~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~3~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~_~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~w~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~r~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~a~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~p~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~p~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~e~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~r~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~?~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~s~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~t~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~y~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~l~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~e~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~=~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~f~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~l~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~a~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~t~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~-~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~s~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~q~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~u~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~a~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~r~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~e~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~)~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~
+~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~!~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~[~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~G~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~i~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~t~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~H~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~u~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~b~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~ ~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~-~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~ ~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~r~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~e~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~p~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~o~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~ ~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~s~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~i~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~z~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~e~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~]~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~(~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~h~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~t~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~t~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~p~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~s~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~:~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~/~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~/~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~i~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~m~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~g~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~.~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~s~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~h~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~i~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~e~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~l~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~d~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~s~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~.~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~i~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~o~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~/~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~g~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~i~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~t~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~h~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~u~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~b~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~/~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~r~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~e~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~p~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~o~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~-~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~s~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~i~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~z~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~e~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~/~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~k~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~k~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~r~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~i~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~s~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~t~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~o~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~f~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~2~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~0~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~0~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~/~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~p~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~y~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~_~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~w~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~e~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~b~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~3~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~_~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~w~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~r~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~a~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~p~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~p~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~e~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~r~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~?~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~s~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~t~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~y~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~l~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~e~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~=~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~f~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~l~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~a~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~t~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~-~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~s~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~q~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~u~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~a~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~r~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~e~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~)~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~
+~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~!~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~[~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~G~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~i~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~t~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~H~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~u~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~b~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~ ~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~-~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~ ~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~l~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~i~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~n~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~e~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~s~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~ ~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~o~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~f~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~ ~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~c~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~o~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~d~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~e~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~]~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~(~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~h~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~t~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~t~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~p~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~s~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~:~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~/~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~/~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~i~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~m~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~g~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~.~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~s~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~h~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~i~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~e~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~l~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~d~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~s~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~.~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~i~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~o~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~/~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~t~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~o~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~k~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~e~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~i~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~/~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~l~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~i~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~n~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~e~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~s~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~/~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~g~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~i~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~t~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~h~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~u~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~b~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~/~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~k~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~k~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~r~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~i~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~s~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~t~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~o~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~f~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~2~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~0~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~0~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~/~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~p~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~y~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~_~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~w~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~e~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~b~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~3~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~_~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~w~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~r~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~a~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~p~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~p~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~e~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~r~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~?~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~s~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~t~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~y~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~l~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~e~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~=~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~f~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~l~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~a~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~t~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~-~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~s~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~q~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~u~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~a~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~r~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~e~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~)~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~
+~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~
+~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~!~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~[~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~G~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~i~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~t~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~H~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~u~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~b~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~ ~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~-~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~ ~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~l~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~i~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~c~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~e~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~n~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~s~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~e~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~]~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~(~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~h~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~t~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~t~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~p~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~s~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~:~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~/~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~/~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~i~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~m~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~g~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~.~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~s~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~h~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~i~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~e~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~l~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~d~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~s~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~.~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~i~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~o~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~/~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~g~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~i~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~t~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~h~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~u~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~b~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~/~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~l~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~i~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~c~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~e~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~n~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~s~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~e~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~/~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~k~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~k~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~r~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~i~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~s~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~t~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~o~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~f~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~2~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~0~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~0~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~/~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~p~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~y~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~_~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~w~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~e~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~b~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~3~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~_~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~w~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~r~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~a~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~p~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~p~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~e~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~r~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~?~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~l~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~a~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~b~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~e~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~l~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~=~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~r~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~e~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~p~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~o~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~%~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~2~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~0~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~l~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~i~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~c~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~e~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~n~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~s~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~e~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~&~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~s~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~t~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~y~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~l~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~e~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~=~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~f~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~l~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~a~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~t~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~-~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~s~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~q~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~u~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~a~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~r~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~e~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~)~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~
+~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~
+~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~#~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~#~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~ ~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~D~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~e~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~s~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~c~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~r~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~i~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~p~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~t~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~i~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~o~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~n~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~
+~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~
+~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~k~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~w~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~3~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~
+~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~
+~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~#~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~#~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~ ~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~I~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~n~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~s~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~t~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~a~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~l~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~l~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~
+~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~
+~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~~~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~~~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~~~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~~~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~b~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~a~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~s~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~h~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~
+~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~p~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~i~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~p~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~ ~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~i~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~n~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~s~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~t~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~a~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~l~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~l~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~ ~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~k~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~w~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~3~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~
+~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~#~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~ ~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~o~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~r~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~
+~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~p~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~i~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~p~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~3~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~ ~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~i~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~n~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~s~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~t~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~a~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~l~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~l~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~ ~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~k~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~w~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~3~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~
+~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~~~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~~~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~~~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~~~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~
+~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~
+~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~#~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~#~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~ ~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~U~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~s~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~a~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~g~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~e~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~
+~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~
+~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~
+~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~#~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~#~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~ ~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~D~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~e~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~p~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~e~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~n~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~d~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~e~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~n~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~c~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~i~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~e~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~s~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~
+~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~
+~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~[~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~e~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~t~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~h~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~-~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~a~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~c~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~c~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~o~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~u~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~n~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~t~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~]~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~(~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~h~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~t~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~t~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~p~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~s~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~:~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~/~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~/~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~p~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~y~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~p~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~i~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~.~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~o~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~r~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~g~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~/~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~p~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~r~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~o~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~j~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~e~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~c~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~t~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~/~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~e~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~t~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~h~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~-~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~a~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~c~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~c~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~o~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~u~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~n~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~t~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~)~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~,~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~ ~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~[~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~n~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~o~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~r~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~a~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~i~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~s~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~e~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~]~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~(~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~h~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~t~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~t~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~p~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~s~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~:~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~/~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~/~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~p~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~y~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~p~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~i~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~.~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~o~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~r~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~g~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~/~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~p~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~r~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~o~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~j~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~e~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~c~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~t~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~/~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~n~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~o~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~r~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~a~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~i~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~s~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~e~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~)~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~,~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~ ~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~[~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~w~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~e~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~b~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~3~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~]~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~(~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~h~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~t~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~t~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~p~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~s~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~:~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~/~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~/~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~p~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~y~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~p~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~i~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~.~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~o~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~r~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~g~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~/~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~p~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~r~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~o~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~j~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~e~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~c~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~t~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~/~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~w~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~e~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~b~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~3~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~)~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~,~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~ ~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~[~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~w~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~e~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~b~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~3~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~-~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~e~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~r~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~c~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~2~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~0~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~-~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~p~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~r~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~e~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~d~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~e~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~f~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~i~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~n~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~e~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~d~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~]~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~(~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~h~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~t~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~t~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~p~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~s~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~:~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~/~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~/~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~p~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~y~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~p~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~i~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~.~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~o~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~r~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~g~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~/~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~p~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~r~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~o~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~j~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~e~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~c~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~t~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~/~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~w~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~e~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~b~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~3~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~-~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~e~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~r~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~c~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~2~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~0~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~-~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~p~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~r~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~e~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~d~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~e~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~f~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~i~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~n~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~e~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~d~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~)~~~~python
+from web3._utils.abi import abi_to_signature
+
+from kw3 import KWeb3
+
+w3 = KWeb3('https://bsc-dataseed.binance.org/')
+
+busd = w3.busd()
+method = busd.balance_of_method('0xA426d6e651aAFcd6e26865d65286c64f34714428')
+
+# print(method.abi)
+print(busd.method_signature(method))
+~~~~
