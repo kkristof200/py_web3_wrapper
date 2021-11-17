@@ -7,6 +7,7 @@ import time
 # Pip
 from web3 import Web3
 from eth_account.signers.local import LocalAccount
+from web3.datastructures import AttributeDict
 from web3.middleware import geth_poa_middleware
 
 from web3_erc20_predefined import *
@@ -46,20 +47,41 @@ class KWeb3(Web3):
     ):
         return self.eth.account.from_key(private_key)
 
-    @noraise()
+
+    # transactions
+
+    def get_transaction(
+        self,
+        tx_hash: str
+    ) -> Optional[AttributeDict]:
+        ''' None means, the Transaction is not found'''
+        return self.eth.get_transaction(tx_hash)
+
+    def get_transaction_index(
+        self,
+        tx_hash: str
+    ) -> Optional[int]:
+        ''' None means, the Transaction is not found'''
+        t = self.get_transaction(tx_hash)
+
+        return t.get('transactionIndex') if t else None
+
+    @noraise(print_exc=False)
     def is_transaction_validated(
         self,
         tx_hash: str
     ) -> Optional[bool]:
         ''' None means, the Transaction is not found'''
-        return self.eth.getTransaction(tx_hash)['transactionIndex'] is not None
+        t = self.eth.get_transaction(tx_hash)
+
+        return t['transactionIndex'] is not None
 
     def wait_till_transaction_is_validated(
         self,
         tx_hash: str,
-        timeout_seconds: Optional[float] = None
+        timeout_seconds: Optional[float] = None,
+        sleep_s_between_requests: float = 1
     ) -> Optional[bool]:
-        ''' None means, the Transaction is not found'''
         if timeout_seconds == 0:
             timeout_seconds = None
 
@@ -68,10 +90,58 @@ class KWeb3(Web3):
         while timeout_seconds is None or time.time() - start_ts < timeout_seconds:
             is_valid = self.is_transaction_validated(tx_hash)
 
-            if is_valid != False:
+            if is_valid == True:
                 return is_valid
 
+            time.sleep(sleep_s_between_requests)
+
         return is_valid
+
+
+    # transaction receipts
+
+    def get_transaction_receipt(
+        self,
+        tx_hash: str
+    ) -> Optional[AttributeDict]:
+        return self.eth.get_transaction_receipt(tx_hash)
+
+    def get_transaction_result(
+        self,
+        tx_hash: str
+    ) -> Optional[bool]:
+        t = self.get_transaction_receipt(tx_hash)
+
+        if t.get('transactionIndex') is None:
+            return None
+
+        status = t.get('status')
+
+        return bool(status) if status is not None else None
+
+    def wait_for_transation_status(
+        self,
+        tx_hash: str,
+        timeout_seconds: Optional[float] = None,
+        sleep_s_between_requests: float = 1
+    ) -> Optional[bool]:
+        if timeout_seconds == 0:
+            timeout_seconds = None
+
+        start_ts = time.time()
+
+        while timeout_seconds is None or time.time() - start_ts < timeout_seconds:
+            status = self.get_transaction_result(tx_hash)
+
+            if status is not None:
+                return status
+
+            time.sleep(sleep_s_between_requests)
+
+        return status
+
+
+    # erc20
 
     def erc20(
         self,
