@@ -67,15 +67,12 @@ class KWeb3(Web3):
 
         return t.get('transactionIndex') if t else None
 
-    @noraise(print_exc=False)
     def is_transaction_validated(
         self,
         tx_hash: str
     ) -> Optional[bool]:
         ''' None means, the Transaction is not found'''
-        t = self.eth.get_transaction(tx_hash)
-
-        return t['transactionIndex'] is not None
+        return self.get_transaction_index(tx_hash) is not None
 
     def wait_till_transaction_is_validated(
         self,
@@ -90,7 +87,7 @@ class KWeb3(Web3):
 
         while timeout_seconds is None or time.time() - start_ts < timeout_seconds:
             t = self.get_transaction(tx_hash)
-            is_valid = t['transactionIndex'] is not None
+            is_valid = t.get('transactionIndex') is not None
 
             if is_valid == True:
                 return t
