@@ -51,6 +51,7 @@ class KWeb3(Web3):
 
     # transactions
 
+    @noraise(print_exc=False)
     def get_transaction(
         self,
         tx_hash: str
@@ -99,6 +100,7 @@ class KWeb3(Web3):
 
     # transaction receipts
 
+    @noraise(print_exc=False)
     def get_transaction_receipt(
         self,
         tx_hash: str
