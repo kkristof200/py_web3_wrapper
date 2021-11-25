@@ -85,10 +85,16 @@ class KWeb3(Web3):
             timeout_seconds = None
 
         start_ts = time.time()
+        t = None
 
         while timeout_seconds is None or time.time() - start_ts < timeout_seconds:
-            t = self.get_transaction(tx_hash)
-            is_valid = t.get('transactionIndex') is not None
+            _t = self.get_transaction(tx_hash)
+
+            if _t is not None:
+                t = _t
+                is_valid = t.get('transactionIndex') is not None
+            else:
+                is_valid = False
 
             if is_valid == True:
                 return t
@@ -130,15 +136,19 @@ class KWeb3(Web3):
             timeout_seconds = None
 
         start_ts = time.time()
+        t = None
 
         while timeout_seconds is None or time.time() - start_ts < timeout_seconds:
-            t = self.get_transaction_receipt(tx_hash)
+            _t = self.get_transaction_receipt(tx_hash)
 
-            if t.get('transactionIndex') is None:
-                return None
+            if _t is not None:
+                t = _t
 
-            if t.get('status') is not None:
-                return t
+                if t.get('transactionIndex') is None:
+                    return None
+
+                if t.get('status') is not None:
+                    return t
 
             time.sleep(sleep_s_between_requests)
 
