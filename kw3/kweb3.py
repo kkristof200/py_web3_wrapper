@@ -6,8 +6,9 @@ import time
 
 # Pip
 from web3 import Web3
+from web3._utils.threads import Timeout
+from web3.exceptions import TransactionNotFound
 from eth_account.signers.local import LocalAccount
-from web3.datastructures import AttributeDict
 from web3.middleware import geth_poa_middleware
 from web3.types import TxData, TxReceipt
 
@@ -75,33 +76,25 @@ class KWeb3(Web3):
         ''' None means, the Transaction is not found'''
         return self.get_transaction_index(tx_hash) is not None
 
-    def wait_till_transaction_is_validated(
+    def wait_for_transaction_to_be_validated(
         self,
         tx_hash: str,
-        timeout_seconds: Optional[float] = None,
-        sleep_s_between_requests: float = 1
+        timeout: float = 120,
+        poll_latency: float = 0.1
     ) -> Optional[TxData]:
-        if timeout_seconds == 0:
-            timeout_seconds = None
+        with Timeout(timeout) as _timeout:
+            while True:
+                try:
+                    txn_data = self.get_transaction(tx_hash)
+                except TransactionNotFound:
+                    txn_data = None
 
-        start_ts = time.time()
-        t = None
+                if txn_data is not None and txn_data.get('transactionIndex') is not None:
+                    break
 
-        while timeout_seconds is None or time.time() - start_ts < timeout_seconds:
-            _t = self.get_transaction(tx_hash)
+                _timeout.sleep(poll_latency)
 
-            if _t is not None:
-                t = _t
-                is_valid = t.get('transactionIndex') is not None
-            else:
-                is_valid = False
-
-            if is_valid == True:
-                return t
-
-            time.sleep(sleep_s_between_requests)
-
-        return t
+        return txn_data
 
 
     # transaction receipts
@@ -129,30 +122,14 @@ class KWeb3(Web3):
     def wait_for_transation_receipt(
         self,
         tx_hash: str,
-        timeout_seconds: Optional[float] = None,
-        sleep_s_between_requests: float = 1
+        timeout_seconds: int = 120,
+        poll_latency: float = 0.1
     ) -> Optional[TxReceipt]:
-        if timeout_seconds == 0:
-            timeout_seconds = None
-
-        start_ts = time.time()
-        t = None
-
-        while timeout_seconds is None or time.time() - start_ts < timeout_seconds:
-            _t = self.get_transaction_receipt(tx_hash)
-
-            if _t is not None:
-                t = _t
-
-                if t.get('transactionIndex') is None:
-                    return None
-
-                if t.get('status') is not None:
-                    return t
-
-            time.sleep(sleep_s_between_requests)
-
-        return t
+        return self.eth.wait_for_transation_receipt(
+            transaction_hash=tx_hash,
+            timeout=timeout_seconds,
+            poll_latency=poll_latency
+        )
 
 
     # erc20
