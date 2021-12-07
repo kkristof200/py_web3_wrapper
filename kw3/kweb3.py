@@ -2,7 +2,6 @@
 
 # System
 from typing import Optional
-import time
 
 # Pip
 from web3 import Web3
