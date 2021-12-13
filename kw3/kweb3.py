@@ -9,7 +9,7 @@ from web3._utils.threads import Timeout
 from web3.exceptions import TransactionNotFound
 from eth_account.signers.local import LocalAccount
 from web3.middleware import geth_poa_middleware
-from web3.types import TxData, TxReceipt, LogReceipt
+from web3.types import TxData, TxReceipt, LogReceipt, BlockNumber
 
 from web3_erc20_predefined import *
 from noraise import noraise
@@ -38,6 +38,13 @@ class KWeb3(Web3):
 
         if use_poa_middleware:
             self.middleware_onion.inject(geth_poa_middleware, layer=0)
+
+
+    # --------------------------------------------------- Public properties -------------------------------------------------- #
+
+    @property
+    def block_number(self) -> BlockNumber:
+        return self.eth.block_number
 
 
     # ---------------------------------------------------- Public methods ---------------------------------------------------- #

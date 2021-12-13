@@ -10,7 +10,7 @@ else:
 
 setuptools.setup(
     name='kw3',
-    version='0.0.22',
+    version='0.0.23',
     author='Kristóf-Attila Kovács',
     description='kw3',
     long_description=long_description,
@@ -20,7 +20,7 @@ setuptools.setup(
     install_requires=[
         'eth-account>=0.5.6',
         'noraise>=0.0.16',
-        'setuptools>=59.5.0',
+        'setuptools>=59.6.0',
         'web3>=5.25.0',
         'web3-erc20-predefined>=0.0.3'
     ],
