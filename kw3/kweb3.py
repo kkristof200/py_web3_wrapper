@@ -1,7 +1,7 @@
 # ------------------------------------------------------------ Imports ----------------------------------------------------------- #
 
 # System
-from typing import Optional, Union, List
+from typing import Optional, Union, List, Dict, Any
 
 # Pip
 from web3 import Web3
@@ -151,6 +151,17 @@ class KWeb3(Web3):
             'toBlock': to_block,
             'topics': [topics] if isinstance(topics, str) else topics
         })
+
+
+    # utils
+
+    def to_dict(
+        self,
+        obj: Dict[Any, Any]
+    ) -> Dict[Any, Any]:
+        import json
+
+        return json.loads(self.toJSON(obj))
 
 
     # erc20
