@@ -1,7 +1,7 @@
 # ------------------------------------------------------------ Imports ----------------------------------------------------------- #
 
 # System
-from typing import Optional
+from typing import Optional, Union, List
 
 # Pip
 from web3 import Web3
@@ -9,7 +9,7 @@ from web3._utils.threads import Timeout
 from web3.exceptions import TransactionNotFound
 from eth_account.signers.local import LocalAccount
 from web3.middleware import geth_poa_middleware
-from web3.types import TxData, TxReceipt
+from web3.types import TxData, TxReceipt, LogReceipt
 
 from web3_erc20_predefined import *
 from noraise import noraise
@@ -129,6 +129,21 @@ class KWeb3(Web3):
             timeout=timeout_seconds,
             poll_latency=poll_latency
         )
+
+
+    # logs
+
+    def get_logs(
+        self,
+        topics: Union[str, List[str]],
+        from_block: int,
+        to_block: Optional[int] = None
+    ) -> List[LogReceipt]:
+        return self.eth.get_logs({
+            'fromBlock': from_block,
+            'toBlock': to_block,
+            'topics': [topics] if isinstance(topics, str) else topics
+        })
 
 
     # erc20
