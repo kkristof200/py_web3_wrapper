@@ -28,9 +28,17 @@ class KWeb3(Web3):
         self,
         endpoint_uri: str,
         account_private_key: Optional[str] = None,
-        use_poa_middleware: bool = False
+        use_poa_middleware: bool = False,
+        *args,
+        **kwargs
     ):
-        super().__init__(Web3.HTTPProvider(endpoint_uri))
+        super().__init__(
+            provider=self.HTTPProvider(endpoint_uri),
+            # modules: Optional[Dict[str, Union[Type[Module], Sequence[Any]]]] = None,
+            # external_modules: Optional[Dict[str, Union[Type[Module], Sequence[Any]]]] = None,
+            *args,
+            **kwargs
+        )
         self.account = self.account_from_key(account_private_key) if account_private_key else None
 
         if self.account:
